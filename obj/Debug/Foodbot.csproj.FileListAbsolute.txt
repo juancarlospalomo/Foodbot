@@ -1,0 +1,42 @@
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Bot Application.dll.config
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Bot Application.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Bot Application.pdb
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Autofac.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Chronic.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Microsoft.Bot.Builder.Autofac.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Microsoft.Bot.Builder.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Microsoft.Bot.Connector.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Microsoft.Rest.ClientRuntime.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Microsoft.WindowsAzure.Configuration.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Newtonsoft.Json.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\System.IdentityModel.Tokens.Jwt.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\System.Net.Http.Formatting.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\System.Web.Http.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\System.Web.Http.WebHost.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Autofac.xml
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Microsoft.Bot.Builder.xml
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Microsoft.Bot.Builder.Autofac.xml
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Microsoft.Bot.Connector.xml
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Microsoft.WindowsAzure.Configuration.xml
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\Newtonsoft.Json.xml
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\System.IdentityModel.Tokens.Jwt.pdb
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\System.IdentityModel.Tokens.Jwt.xml
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\System.Net.Http.Formatting.xml
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\System.Web.Http.xml
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\System.Web.Http.WebHost.xml
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\ar\Microsoft.Bot.Builder.resources.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\cs\Microsoft.Bot.Builder.resources.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\en\Microsoft.Bot.Builder.resources.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\es\Microsoft.Bot.Builder.resources.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\fa\Microsoft.Bot.Builder.resources.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\fr\Microsoft.Bot.Builder.resources.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\ja\Microsoft.Bot.Builder.resources.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\ru\Microsoft.Bot.Builder.resources.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\obj\Debug\Foodbot.csprojResolveAssemblyReference.cache
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\obj\Debug\Bot Application.dll
+i:\windows directories\documents\visual studio 2017\Projects\Foodbot\Foodbot\obj\Debug\Bot Application.pdb
