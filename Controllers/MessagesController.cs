@@ -9,6 +9,10 @@ using Microsoft.Bot.Builder.Dialogs.Internals;
 using Autofac;
 using System;
 
+/*Written by Nathan Beal 2017
+ *   bealnj@gmail.com
+*/
+
 namespace Foodbot
 {
     [BotAuthentication]
@@ -74,7 +78,7 @@ namespace Foodbot
                 }
                 else
                 {
-                    Activity replyToConversation = activity.CreateReply(Response(new Random().Next(0, 5)));
+                    Activity replyToConversation = activity.CreateReply(ResponseFactory.getResponse());
                     replyToConversation.Recipient = activity.From;
                     replyToConversation.Type = "message";
                     Attachment plAttachment = recipeCard.ToAttachment();
@@ -96,33 +100,10 @@ namespace Foodbot
             return response;
         }
 
-        private string Response(int num)
-        {
-            switch (num)
-            {
-                case 0:
-                    return "How does this sound?";
-                case 1:
-                    return "This sounds tasty!";
-                case 2:
-                    return "What do you think of this?";
-                case 3:
-                    return "This what you're looking for?";
-                case 4:
-                    return "I found this for you!";
-                default:
-                    return "How does this sound?";
-            }
-        }
-
         private async Task<Activity> HandleSystemMessage(Activity message)
         {
             Activity activity = message;
-            if (message.Type == ActivityTypes.DeleteUserData)
-            {
-                // Implement user deletion here
-                // If we handle user deletion, return a real message
-            }
+            if (message.Type == ActivityTypes.DeleteUserData) { }
             else if (message.Type == ActivityTypes.ConversationUpdate)
             {
                 IConversationUpdateActivity update = activity;
@@ -146,22 +127,15 @@ namespace Foodbot
                         }
                     }
                 }
-                // Handle conversation state changes, like members being added and removed
-                // Use Activity.MembersAdded and Activity.MembersRemoved and Activity.Action for info
-                // Not available in all channels
             }
             else if (message.Type == ActivityTypes.ContactRelationUpdate)
-            {
-                // Handle add/remove from contact lists
-                // Activity.From + Activity.Action represent what happened
-            }
+            {}
+
             else if (message.Type == ActivityTypes.Typing)
-            {
-                // Handle knowing tha the user is typing
-            }
+            {}
+
             else if (message.Type == ActivityTypes.Ping)
-            {
-            }
+            {}
 
             return null;
         }
