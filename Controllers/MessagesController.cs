@@ -54,6 +54,9 @@ namespace Foodbot
                             recipeCard = await food2fork.getRecipe(strRecipe);
                         }
                          break;
+                    case "Hello":
+                        misunderstand = "Hello!";
+                        break;
                     case "Thanks":
                         misunderstand = "You are very welcome! Happy to help!";
                         break;
@@ -87,7 +90,7 @@ namespace Foodbot
             }
             else
             {
-                HandleSystemMessage(activity);
+                await HandleSystemMessage(activity);
             }
             var response = Request.CreateResponse(HttpStatusCode.OK);
             return response;
@@ -133,7 +136,11 @@ namespace Foodbot
                         {
                             if (newMember.Id != activity.Recipient.Id)
                             {
-                                reply.Text = $"Hello {newMember.Name}! My name is Foodbot, how can I help you today2?";
+                                reply.Text = $"Hello {newMember.Name}! My name is Foodbot, how can I help you today?";
+                            }
+                            else
+                            {
+                                reply.Text = $"Welcome {message.From.Name}";
                             }
                             await client.Conversations.ReplyToActivityAsync(reply);
                         }
